@@ -22,3 +22,24 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+ .gallery {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   padding: 30px;
+   margin: 0, auto;
+   list-style: none;
+   background-color: #f2f2f2;
+ }
+
+
+ .gallery-item:not(:nth-child(3n)) {
+   margin-right: 30px;   
+  }
+
+ .pic { 
+   max-height: 200px;   
+ }
+  
+ 
